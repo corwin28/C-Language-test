@@ -6,7 +6,7 @@ int main() {
 	m = 2 * n - 1;
 	for (a = 1;a <= m;a++) {
 		if (a <= n) {
-			for (i = 1;i <= a;i++) {
+			for (i = 2;i <= a;i++) {
 				printf(" ");
 			}
 			b = m - 2 * (a - 1);
@@ -15,7 +15,7 @@ int main() {
 			}
 		}
 		else {
-			for (i = 2*n-a;i >= 1;i--) {
+			for (i = 2*n-a-1;i >= 1;i--) {
 				printf(" ");
 			}
 			b = 2 * a - m;
