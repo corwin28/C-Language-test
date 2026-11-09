@@ -17,5 +17,5 @@ int main() {
 		}
 		ch = getchar();
 	}
-	printf("%d %d %d %d", a, A, b, B);
+	printf("%d %d %d %d", A, a, b, B);
 }
